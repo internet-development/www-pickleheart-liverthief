@@ -1,0 +1,40 @@
+.body {
+  width: 100%;
+  margin: 0;
+  padding: 72px 24px 48px 24px;
+  font-family: 'heading';
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+
+.left {
+  flex-shrink: 0;
+  width: 128px;
+}
+
+.right {
+  font-weight: 400;
+  font-size: 2.228rem;
+  min-width: 10%;
+  width: 100%;
+  padding-left: 48px;
+}
+
+.image {
+  display: block;
+  width: 100%;
+  height: auto;
+  border-radius: 2px;
+}
+
+@media (max-width: 768px) {
+  .left {
+    width: 72px;
+  }
+
+  .right {
+    padding-left: 24px;
+    font-size: 1.525rem;
+  }
+}

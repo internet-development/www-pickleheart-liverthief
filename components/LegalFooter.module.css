@@ -1,0 +1,8 @@
+.body {
+  width: 100%;
+  margin: 0;
+  padding: 128px 24px 24px 24px;
+  font-size: 24px;
+  white-space: pre-wrap;
+  color: var(--theme-dark-color-foreground);
+}

@@ -1,0 +1,137 @@
+a,
+abbr,
+acronym,
+address,
+applet,
+article,
+aside,
+audio,
+b,
+big,
+blockquote,
+body,
+canvas,
+caption,
+center,
+cite,
+code,
+dd,
+del,
+details,
+dfn,
+div,
+dl,
+dt,
+em,
+embed,
+fieldset,
+figcaption,
+figure,
+footer,
+form,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+header,
+hgroup,
+html,
+i,
+iframe,
+img,
+ins,
+kbd,
+label,
+legend,
+li,
+mark,
+menu,
+nav,
+object,
+ol,
+output,
+p,
+pre,
+q,
+ruby,
+s,
+samp,
+section,
+small,
+span,
+strike,
+strong,
+sub,
+summary,
+sup,
+table,
+tbody,
+td,
+tfoot,
+th,
+thead,
+time,
+tr,
+tt,
+u,
+ul,
+var,
+video {
+  border: 0;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  vertical-align: baseline;
+}
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+
+:root {
+  --theme-dark-color-background: #000;
+  --theme-dark-color-foreground: #fff;
+  --theme-dark-color-foreground-muted: rgba(255, 255, 255, 0.6);
+  --theme-dark-color-overlay: rgba(0, 0, 0, 0.9);
+  --theme-dark-color-accent: magenta;
+  --transition-standard: 200ms ease;
+}
+
+html,
+body {
+  background: var(--theme-dark-color-background);
+  color: var(--theme-dark-color-foreground);
+  font-family: -apple-system, BlinkMacSystemFont, helvetica neue, helvetica, sans-serif;
+  font-size: 16px;
+  font-variant-numeric: tabular-nums;
+  scrollbar-width: none;
+}
+
+@media (max-width: 768px) {
+  html,
+  body {
+    font-size: 12px;
+  }
+}
+
+@font-face {
+  font-family: 'heading';
+  src: url(/static/fonts/RTAliasRough-RegularOblique.woff);
+}
+
+html::-webkit-scrollbar,
+body::-webkit-scrollbar {
+  width: 0;
+}
